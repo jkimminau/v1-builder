@@ -1,0 +1,27 @@
+# Dependencies
+node_modules
+.pnpm-store
+
+# Build artifacts
+dist
+build
+.next
+out
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# OS / Editor
+.DS_Store
+.vscode
+.idea
+*.swp
+
+# Logs
+*.log
+*-debug.log*
+
+# Claude — local planning notes
+CLAUDE.md
